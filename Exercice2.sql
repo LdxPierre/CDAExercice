@@ -48,7 +48,7 @@ CREATE TABLE Reservation(
     `date_debut` DATE NOT NULL,
     `date_fin` DATE NOT NULL,
     `date_reservation` DATE NOT NULL,
-    `montant_arrhes` INT(11),
+    `montant_arrhes` INT(11) NOT NULL,
     `prix_total` DECIMAL(10,2) NOT NULL,
     PRIMARY KEY (`num_chambre`, `num_client`),
     FOREIGN KEY (`num_chambre`) REFERENCES Chambre (`num_chambre`),
