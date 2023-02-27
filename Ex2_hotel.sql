@@ -1,11 +1,11 @@
 --Dictionnaire de donnée 
 --https://docs.google.com/spreadsheets/d/1KIe0SmUdKyG_A5EMgErD6wIejWXiyCxdZnySdCV_ZCs/edit?usp=sharing
 
-DROP DATABASE IF Exists Exercice2;
+DROP DATABASE IF Exists Ex2_hotel;
 
-CREATE DATABASE Exercice2;
+CREATE DATABASE Ex2_hotel;
 
-USE Exercice2;
+USE Ex2_hotel;
 
 CREATE TABLE Station (
     `num_station` VARCHAR(5) NOT NULL,
@@ -16,8 +16,9 @@ CREATE TABLE Station (
 CREATE TABLE Hotel(
     `num_hotel` VARCHAR(5) NOT NULL,
     `nom_hotel` VARCHAR(10) NOT NULL,
-    `adresse_hotel` VARCHAR(20) NOT NULL,
+    `addresse_hotel` VARCHAR(20) NOT NULL,
     `capacite_hotel` INT(11) NOT NULL,
+    `categorie_hotel` VARCHAR(10) NOT NULL,
     `num_station` VARCHAR(5) NOT NULL,
     PRIMARY KEY (`num_hotel`),
     FOREIGN KEY (`num_station`) REFERENCES Station (`num_station`)
@@ -35,10 +36,10 @@ CREATE TABLE Chambre(
 );
 
 CREATE TABLE Client (
-    `num_client` INT(11) NOT NULL,
+    `num_client` INT(11) NOT NULL AUTO_INCREMENT,
     `nom_client` VARCHAR(20),
     `prenom_client` VARCHAR(20),
-    `adresse_client` VARCHAR(20),
+    `addresse_client` VARCHAR(20),
     PRIMARY KEY (`num_client`)
 );
 
