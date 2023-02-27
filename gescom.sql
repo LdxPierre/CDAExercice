@@ -56,7 +56,7 @@ CREATE TABLE products(
     `pro_color` VARCHAR(30),
     `pro_picture` VARCHAR(40),
     `pro_add_date` DATE NOT NULL DEFAULT CURRENT_DATE,
-    `pro_update_date` DATE NOT NULL DEFAULT CURRENT_DATE,
+    `pro_update_date` DATE NOT NULL DEFAULT CURRENT_DATE ON UPDATE CURRENT_DATE,
     `pro_publish` TINYINT(1) NOT NULL,
     `cat_id` INT NOT NULL,
     `sup_id` INT NOT NULL,
