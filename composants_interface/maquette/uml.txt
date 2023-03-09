@@ -1,0 +1,8 @@
+Phase 2
+
+1 - Identifiez les acteurs.
+
+Usagers, employés, bénévoles, bibliothécaire, 
+
+2 - Ensuite vous identifiez les différents cas d'usage sur le cas Médiathèque.
+
