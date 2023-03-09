@@ -2,7 +2,45 @@ Phase 2
 
 1 - Identifiez les acteurs.
 
-Usagers, employés, bénévoles, bibliothécaire, 
+Usager, personnel
 
 2 - Ensuite vous identifiez les différents cas d'usage sur le cas Médiathèque.
+
+- Un usager consulte la liste des documents
+- Les employés gère les livres et des Usagers
+- Le personnel gère les emprunts
+- Le bibliothécaire envoie des relances
+
+3 - Ecrivez le scénario principal et les scénarios alternatifs pour le cas d'usage qui concerne l'emprunt d'une ressource.
+
+- L'employé saisie l'identification de l'usager
+- Le système vérifie l'identification de l'usager
+- Le système valide l'identification
+- L'emplyé saisie la reférence de la ressource
+- Le système valide l'existence de la ressource
+- Le système vérifie que l'usager à payé sa cotisation et possède moins de 5 emprunt
+- Le système valide la possibilité d'emprunt de l'usager
+- Le système génère une fiche d'emprunt
+
+- L'employé saisie l'identification de l'usager
+- Le système vérifie l'identification de l'usager
+- Le système ne valide pas l'identification de l'usager
+- Le système affiche un message et propose de recommencer
+...
+
+- L'employé saisie l'identification de l'usager
+- Le système valide l'identification de l'usager
+- L'employé saisie la référence de la ressource
+- Le système ne valide pas la référence de la ressource
+- Le système affiche un message et propose de recommencer
+...
+
+- L'employé saisie l'identification de l'usager
+- Le système vérfie l'identification de l'usager
+- Le système valide l'identificatio de l'usager
+- L'employé saisie la reférence de la ressource
+- Le système valide l'existence de la ressource
+- Le système vérifie que l'usager à payé sa cotisation et possède moins de 5 emprunt
+- Le système ne valide pas la possibilité d'emprunt de l'usager
+- Le système affiche un message d'erreur
 
