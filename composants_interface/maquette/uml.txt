@@ -13,34 +13,31 @@ Usager, personnel
 
 3 - Ecrivez le scénario principal et les scénarios alternatifs pour le cas d'usage qui concerne l'emprunt d'une ressource.
 
-- L'employé saisie l'identification de l'usager
-- Le système vérifie l'identification de l'usager
-- Le système valide l'identification
-- L'emplyé saisie la reférence de la ressource
-- Le système valide l'existence de la ressource
-- Le système vérifie que l'usager à payé sa cotisation et possède moins de 5 emprunt
+- L'employé demande une fiche emprunt
+- Le systeme demande un scan de la carte usager
+- L'employé scan la carte de l'usager
+- Le système vérifie la validité de la carte, la cotisation et le nombre d'emprunt
 - Le système valide la possibilité d'emprunt de l'usager
+- Le système demande la référence de la ressource
+- L'emplyé saisie la reférence de la ressource
+- Le systeme vérifie l'existence de la ressource
+- Le système valide l'existence de la ressource
 - Le système génère une fiche d'emprunt
 
-- L'employé saisie l'identification de l'usager
-- Le système vérifie l'identification de l'usager
-- Le système ne valide pas l'identification de l'usager
-- Le système affiche un message et propose de recommencer
-...
+- L'employé demande une fiche emprunt
+- Le systeme demande un scan de la carte usager
+- L'employé scan la carte de l'usager
+- Le système vérifie la validité de la carte, la cotisation et le nombre d'emprunt
+- Le système affiche un message d'erreur adapté
 
-- L'employé saisie l'identification de l'usager
-- Le système valide l'identification de l'usager
-- L'employé saisie la référence de la ressource
+- L'employé demande une fiche emprunt
+- Le systeme demande un scan de la carte usager
+- L'employé scan la carte de l'usager
+- Le système vérifie la validité de la carte, la cotisation et le nombre d'emprunt
+- Le système valide la possibilité d'emprunt de l'usager
+- Le système demande la référence de la ressource
+- L'emplyé saisie la reférence de la ressource
 - Le système ne valide pas la référence de la ressource
 - Le système affiche un message et propose de recommencer
 ...
-
-- L'employé saisie l'identification de l'usager
-- Le système vérfie l'identification de l'usager
-- Le système valide l'identificatio de l'usager
-- L'employé saisie la reférence de la ressource
-- Le système valide l'existence de la ressource
-- Le système vérifie que l'usager à payé sa cotisation et possède moins de 5 emprunt
-- Le système ne valide pas la possibilité d'emprunt de l'usager
-- Le système affiche un message d'erreur
 
